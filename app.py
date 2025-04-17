@@ -28,5 +28,5 @@ def youtube_to_audio():
     except Exception as e:
         return f"Error: {str(e)}", 500
 
-if name == "__main__":
+if __name__ == "__main__":
     app.run(host="0.0.0.0", port=3000)
