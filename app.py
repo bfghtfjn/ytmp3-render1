@@ -17,7 +17,8 @@ def youtube_to_audio():
         'format': 'bestaudio[ext=m4a]/bestaudio',
         'quiet': True,
         'noplaylist': True,
-        'skip_download': True
+        'skip_download': True,
+        'cookiefile': 'cookies.txt'
     }
 
     try:
