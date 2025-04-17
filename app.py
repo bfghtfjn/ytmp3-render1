@@ -17,7 +17,8 @@ def youtube_to_mp3():
         'format': 'bestaudio[ext=mp3]/bestaudio',
         'quiet': True,
         'noplaylist': True,
-        'skip_download': True
+        'skip_download': True,
+        'cookiefile': 'cookies.txt'  # <-- هاي أهم سطر
     }
 
     try:
