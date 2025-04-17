@@ -36,5 +36,8 @@ def get_mp3():
     finally:
         if os.path.exists(input_file):
             os.remove(input_file)
-            if  __name__ == "__main__":
-               app.run (host="0.0.0.0", port=10000)
+          if __name__ == "__main__":
+    app.run(
+        host="0.0.0.0",
+        port=10000
+    )
